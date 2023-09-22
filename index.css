@@ -448,10 +448,19 @@ a:hover i:hover {
   background-color: #f5f3f3;
 }
 
+.footer__logo--img{
+  border-radius: 5px;
+}
+
 @media (max-width: 760px) {
   nav {
     height: 68px;
   }
+  .logo--img{
+    margin-left: 16px;
+  }
+
+
 
   h1 {
     font-size: 28px;
